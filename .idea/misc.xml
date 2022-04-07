@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/drawable/checked.xml" value="0.103" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/drawable/gradent1.xml" value="0.103" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/drawable/gradient.xml" value="0.103" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.1005" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/drawable/ic_baseline_arrow_drop_down_24.xml" value="0.103" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/drawable/ic_baseline_camera_alt_24.xml" value="0.103" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/drawable/ic_baseline_keyboard_backspace_24.xml" value="0.103" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/drawable/ic_baseline_local_phone_24.xml" value="0.103" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/drawable/ic_baseline_logout_24.xml" value="0.103" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/drawable/ic_baseline_map_24.xml" value="0.103" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/drawable/ic_baseline_menu_open_24.xml" value="0.103" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/drawable/ic_baseline_minimize_24.xml" value="0.103" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.103" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/drawable/ic_baseline_translate_24.xml" value="0.1" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/drawable/ic_info_icon.xml" value="0.1015" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/drawable/ic_location.xml" value="0.114" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/drawable/ic_menu.xml" value="0.1" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/drawable/ic_navigate_icon.xml" value="0.1015" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/drawable/ripple_effect.xml" value="0.1" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/drawable/ripple_outline.xml" value="0.1" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/drawable/search_bacground.xml" value="0.103" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/drawable/selected_shape.xml" value="0.1" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/drawable/support_background.xml" value="0.103" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/drawable/theme_text_layout.xml" value="0.103" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/drawable/unselected_shape.xml" value="0.1" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/layout/activity_about.xml" value="0.18298418127404875" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/layout/activity_add_center.xml" value="0.22" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/layout/activity_check_phone.xml" value="0.2" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/layout/activity_fan_search.xml" value="0.18298418127404875" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/layout/activity_filter_by_category.xml" value="0.18298418127404875" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/layout/activity_level.xml" value="0.25" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/layout/activity_markaz_detail.xml" value="0.2" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/layout/activity_my_centers.xml" value="0.17999144933732364" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/layout/activity_news_detail.xml" value="0.18298418127404875" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/layout/activity_profil.xml" value="0.25" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/layout/activity_region.xml" value="0.18298418127404875" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/layout/activity_register.xml" value="0.22" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/layout/activity_splash.xml" value="0.18298418127404875" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/layout/activity_support.xml" value="0.18298418127404875" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/layout/activity_teacher.xml" value="0.18298418127404875" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/layout/category_item_layout.xml" value="0.5" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/layout/district_item_layout.xml" value="0.18298418127404875" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/layout/fragment_baholar.xml" value="0.18298418127404875" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/layout/fragment_home.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/layout/fragment_kurslar.xml" value="0.18298418127404875" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/layout/fragment_maps.xml" value="0.2" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/layout/fragment_news.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/layout/fragment_search.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/layout/fragment_see_more.xml" value="0.18298418127404875" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/layout/fragment_signal.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/layout/fragment_yangiliklar.xml" value="0.18298418127404875" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/layout/grade_by_user_layout.xml" value="0.18298418127404875" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/layout/kurs_item_layout.xml" value="0.2" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/layout/markaz_item_layout.xml" value="0.33" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/layout/menu_header_layout.xml" value="0.22" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/layout/news_item_layout.xml" value="0.18" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/layout/region_item_layout.xml" value="0.18298418127404875" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/layout/selected_shape.xml" value="0.18298418127404875" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/layout/teacher_item_layout.xml" value="0.18298418127404875" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/layout/top_markaz_item_layout.xml" value="0.25" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/menu/draver_navigation_menu.xml" value="0.18298418127404875" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/IlmIzlab/app/src/main/res/menu/navigation_menu.xml" value="0.18298418127404875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

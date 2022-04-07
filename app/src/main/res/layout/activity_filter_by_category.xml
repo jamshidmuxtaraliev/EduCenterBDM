@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screens.filterByCategory.FilterByCategoryActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="4dp"
+            android:layout_marginBottom="4dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="14dp"
+                android:paddingVertical="10dp"
+                android:background="@color/white"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/backHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_baseline_keyboard_backspace_24"
+                    app:tint="@color/colorPrimaryDark" />
+                <TextView
+                    android:id="@+id/titleActivity"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Chet tillari"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_gravity="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="20dp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardViewVil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="18dp"
+                android:layout_marginVertical="8dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginStart="20dp"
+                app:cardBackgroundColor="@color/colorPrimary"
+                app:cardElevation="3dp"
+                app:contentPadding="6dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/titleVil"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="Viloyatni tanlang"
+                        android:textColor="@color/white"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="5dp"
+                        android:textStyle="bold"/>
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_gravity="end"
+                        android:src="@drawable/ic_baseline_arrow_drop_down_24"
+                        app:tint="@color/white" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardViewSort"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="18dp"
+                android:layout_marginVertical="8dp"
+                android:layout_marginEnd="12dp"
+                app:cardBackgroundColor="@color/colorPrimary"
+                app:cardElevation="3dp"
+                app:contentPadding="6dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/titleSort"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="Eng yaqinlari"
+                        android:textColor="@color/white"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="5dp"
+                        android:textStyle="bold"/>
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_gravity="end"
+                        android:src="@drawable/ic_baseline_arrow_drop_down_24"
+                        app:tint="@color/white" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CCCBCB"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recylerSortFanHomeScreen"
+            android:layout_width="match_parent"
+            android:layout_marginTop="6dp"
+            android:layout_height="wrap_content"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/sortRecycler"
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</FrameLayout>

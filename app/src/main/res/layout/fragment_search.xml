@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FAFAFA"
+    tools:context=".screens.search.SearchFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbarSize="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardviewViloyat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="18dp"
+                        android:layout_marginVertical="8dp"
+                        android:layout_marginEnd="12dp"
+                        android:layout_marginStart="14dp"
+                        app:cardBackgroundColor="@color/colorPrimary"
+                        app:cardElevation="3dp"
+                        app:contentPadding="6dp">
+                        <LinearLayout
+                            android:layout_width="140dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/titleVil"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content"
+                                android:text="Shahar / Tuman"
+                                android:textColor="@color/white"
+                                android:layout_gravity="center"
+                                android:maxLines="1"
+                                android:ellipsize="end"
+                                android:layout_marginHorizontal="5dp"
+                                android:textStyle="bold"/>
+
+                            <ImageView
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:layout_gravity="end"
+                                android:src="@drawable/ic_baseline_arrow_drop_down_24"
+                                app:tint="@color/white" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardviewFan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="18dp"
+                        android:layout_marginVertical="8dp"
+                        android:layout_marginEnd="12dp"
+                        app:cardBackgroundColor="@color/colorPrimary"
+                        app:cardElevation="3dp"
+                        app:contentPadding="6dp">
+                        <LinearLayout
+                            android:layout_width="140dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/titleFan"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:maxLines="1"
+                                android:ellipsize="end"
+                                android:layout_height="wrap_content"
+                                android:text="Fan"
+                                android:textColor="@color/white"
+                                android:layout_gravity="center"
+                                android:layout_marginHorizontal="5dp"
+                                android:textStyle="bold"/>
+
+                            <ImageView
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:layout_gravity="end"
+                                android:src="@drawable/ic_baseline_arrow_drop_down_24"
+                                app:tint="@color/white" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardviewSortirovka"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="18dp"
+                        android:layout_marginVertical="8dp"
+                        android:layout_marginEnd="12dp"
+                        app:cardBackgroundColor="@color/colorPrimary"
+                        app:cardElevation="3dp"
+                        app:contentPadding="6dp">
+                        <LinearLayout
+                            android:layout_width="140dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/titleSort"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content"
+                                android:text="Eng saralari"
+                                android:textColor="@color/white"
+                                android:layout_gravity="center"
+                                android:layout_marginHorizontal="5dp"
+                                android:textStyle="bold"/>
+
+                            <ImageView
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:layout_gravity="end"
+                                android:src="@drawable/ic_baseline_arrow_drop_down_24"
+                                app:tint="@color/white" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+            </HorizontalScrollView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"
+                app:cardCornerRadius="20dp">
+
+                <androidx.appcompat.widget.SearchView
+                    android:id="@+id/searchView"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="#E0E0E0"
+                    android:textCursorDrawable="@color/black"
+                    app:iconifiedByDefault="false"
+                    app:queryBackground="@null"
+                    android:focusable="false"
+                    app:queryHint="Markazlarni qidirish..." />
+            </androidx.cardview.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:background="#C8C8C8"/>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+                    android:id="@+id/swipeSearchFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerSearch"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+                <FrameLayout
+                    android:id="@+id/flProgressSerch"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#77000000"
+                    android:visibility="gone"
+                    android:clickable="true">
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/animationView"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        app:lottie_rawRes="@raw/loading"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"/>
+                </FrameLayout>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+
+</FrameLayout>

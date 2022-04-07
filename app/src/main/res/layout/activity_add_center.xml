@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fafafa"
+    tools:context=".screens.addCenter.AddCenterActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:paddingVertical="10dp">
+
+        <ImageView
+            android:id="@+id/closeLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:src="@drawable/ic_baseline_keyboard_backspace_24"
+            app:tint="@color/white"
+            android:backgroundTint="@color/white"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:ellipsize="end"
+            android:text="Markaz qo'shish"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="14dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Asosiy rasm"
+                android:textColor="@color/black"
+                android:layout_marginTop="14dp"
+                android:layout_marginBottom="6dp"/>
+
+           <androidx.constraintlayout.widget.ConstraintLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+               <ImageView
+                   android:id="@+id/imageView2"
+                   android:layout_width="match_parent"
+                   android:layout_height="210dp"
+                   android:background="@color/white"
+                   android:scaleType="centerCrop"
+                   app:layout_constraintBottom_toBottomOf="parent"
+                   app:layout_constraintTop_toTopOf="parent" />
+
+               <ImageView
+                   android:id="@+id/imagePicker"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/ic_baseline_camera_alt_24"
+                   app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+                   app:layout_constraintEnd_toEndOf="@+id/imageView2"
+                   app:layout_constraintStart_toStartOf="@+id/imageView2"
+                   app:layout_constraintTop_toTopOf="@+id/imageView2"
+                   app:tint="@color/colorPrimaryDark" />
+           </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Markaz nomi"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="2dp"
+            android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/nameEduRequest"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/theme_text_layout"
+                android:paddingHorizontal="10dp"
+                android:hint="Markaz nomi.."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Asosiy rasm"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="2dp"
+                android:textColor="@color/black"/>
+
+                <EditText
+                    android:id="@+id/numberPhoneRequest"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="@drawable/theme_text_layout"
+                    android:paddingHorizontal="10dp"
+                    android:text="+998"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Minimal oylik to'lov(So'm)"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="2dp"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/summaMinimumRequest"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/theme_text_layout"
+                android:paddingHorizontal="10dp"
+                android:hint="Miqdorni kiriting.."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Maximal oylik to'lov(So'm)"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="2dp"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/summaMaximumRequest"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/theme_text_layout"
+                android:paddingHorizontal="10dp"
+                android:hint="Miqdorni kiriting.."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Markaz haqida qisqacha izoh"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="2dp"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/commentEduRequest"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/theme_text_layout"
+                android:paddingHorizontal="10dp"
+                android:hint="Izohni kiriting"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Manzil"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="2dp"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/addressEduRequest"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/theme_text_layout"
+                android:paddingHorizontal="10dp"
+                android:hint="Manzil.."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Viloyat"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="2dp"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/regionEduRequest"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:drawableEnd="@drawable/ic_baseline_arrow_drop_down_24"
+                android:background="@drawable/theme_text_layout"
+                android:paddingHorizontal="10dp"
+                android:hint="Viloyatni tanlang.."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tuman;Shahar"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="2dp"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/districtEduRequest"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:drawableEnd="@drawable/ic_baseline_arrow_drop_down_24"
+                android:background="@drawable/theme_text_layout"
+                android:paddingHorizontal="10dp"
+                android:hint="Tanlang.."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Joylashuvni tanlang"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="2dp"
+                android:textColor="@color/black"/>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="2dp"
+                app:cardCornerRadius="0dp">
+                <com.google.android.gms.maps.MapView
+                    android:id="@+id/mapView"
+                    android:layout_width="match_parent"
+                    android:layout_height="280dp" />
+            </androidx.cardview.widget.CardView>
+
+            <CheckBox
+                android:id="@+id/checkBoxEduRequest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Barcha malumotlar to'g'riligini tasdiqlayman."
+                android:textSize="15sp"
+                android:layout_marginTop="8dp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnConfirmEduRequest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yuborish"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/colorPrimaryDark"
+                app:cornerRadius="6dp"
+                android:layout_marginBottom="10dp"/>
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
+</FrameLayout>

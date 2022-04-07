@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Ilm Izlab</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="rishton_tumani">Rishton tumani</string>
+    <string name="open_location_settings">GPS ni yoqing</string>
+    <string name="gps_network_not_enabled">GPS yoniq emas. Joylashuvga kirish huquqini bering</string>
+    <string name="Cancel">CANCEL</string>
+    <string name="network">Iltimos internet sozlamalarini teshiring va ilovani qayta ishga tushuring.</string>
+</resources>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ripple_outline"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardElevation="1dp"
+        app:cardCornerRadius="6dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="8dp"
+        app:contentPadding="8dp"
+        app:cardBackgroundColor="#fff">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="0dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/RasmiMarkazY"
+                        android:layout_width="153dp"
+                        android:layout_height="100dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/iteach" />
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardViewLocation"
+                        android:layout_width="75dp"
+                        android:layout_height="25dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="3dp"
+                        android:elevation="0dp"
+                        app:cardBackgroundColor="#90383933"
+                        app:cardCornerRadius="24dp"
+                        app:contentPadding="4dp">
+
+                        <ImageView
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:layout_marginTop="2dp"
+                            android:src="@drawable/ic_location"
+                            app:tint="@color/white" />
+
+                        <TextView
+                            android:id="@+id/LocationMarkazY"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="16dp"
+                            android:ellipsize="end"
+                            android:maxLines="1"
+                            android:text="Farg'ona..."
+                            android:textColor="@color/white"
+                            android:textSize="10sp"
+                            tools:ignore="SmallSp" />
+
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardViewStar"
+                        android:layout_width="48dp"
+                        android:layout_height="25dp"
+                        android:layout_marginStart="99dp"
+                        android:layout_marginTop="3dp"
+                        android:elevation="0dp"
+                        app:cardBackgroundColor="#90383933"
+                        app:cardCornerRadius="24dp"
+                        app:contentPadding="4dp">
+
+                        <ImageView
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:layout_marginTop="1dp"
+                            android:src="@drawable/ic_baseline_star_24"
+                            app:tint="@color/yellow" />
+
+                        <TextView
+                            android:id="@+id/StarCount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="16dp"
+                            android:maxLines="1"
+                            android:text="4.3"
+                            android:textColor="@color/white"
+                            android:textSize="10sp"
+                            android:textStyle="bold" />
+                    </androidx.cardview.widget.CardView>
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="148dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/NomiMarkazY"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="jabiuhddoid"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/TypeMarkazY"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="hjfufeydtfhjhjyt"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/CommentMarkazY"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="Arab tili o'qitish bo'yicha"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="11sp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>
